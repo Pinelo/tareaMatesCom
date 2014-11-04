@@ -1,0 +1,35 @@
+
+
+.mainPoster{
+	background-image:
+    linear-gradient(
+      to right, 
+      red, #f06d06
+    );
+    padding-top: 20em;
+    padding-bottom: 20em;
+}
+
+.image_container img {
+  width: 30px;
+  height: 30px
+}
+
+.mainPoster h1{
+	font-family: dekar;
+	font-size: 520%;
+}
+
+.mainPoster p{
+	font-family: dekar;
+}
+body {
+	font-family: dekar;
+}
+.info {
+	padding-top: 5em;
+}
+$button-border-width: 2px;
+$button-border-style: solid;
+$button-bg-color: transparent;
+$button-border-color: black;

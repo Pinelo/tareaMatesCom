@@ -1,19 +1,76 @@
-<nav class="top-bar" data-topbar role="navigation">
+<div class="mainPoster">
+  <h1><center><strong><%= @siteName %></strong></center></h1>
+  <p><center><strong>Una sociedad de clientes y proveedores <br> Es bueno estar contigo</strong></center></p>
+  <center><id ="Empezar" a href="#" class="button [radius round]">Empezar</a></center>
+</div>
+<!-- Bottom part -->
+
+<div class="contain-to-grid sticky">
+  <nav class="top-bar" data-topbar role="navigation">
   <ul class="title-area">
     <li class="name">
-      <h1><a href="#">My Site</a></h1>
+      <!-- <h1><a href="#">frozen</a></h1> -->
     </li>
   </ul>
 
   <section class="top-bar-section">
-    <!-- Right Nav Section -->
+    <!-- LEFT -->
     <ul class="right">
+      <li class="has-dropdown"><a href="#">Iniciar Sesion</a>
+        <ul class="dropdown">
+          <form action=""></form>
+        </ul>
+      </li>
+      <li><a href="#">Como Empezar</a></li>
       
     </ul>
 
-    <!-- Left Nav Section -->
+
+    <!-- RIGHT -->
     <ul class="left">
+      <li class="has-dropdown">
+        <a href="#"><%= @siteName %></a>
+        <ul class="dropdown">
+          <li><a href="#">Noticias</a></li>
+          <li><a href="#">Contactos</a></li>
+          <li><a href="#">Ayuda</a></li>
+        </ul>
+      </li>
+      
     </ul>
 
   </section>
+  <script>
+    $("#Empezar").click(function()
+    {currentDiv=$(currentDiv); $(currentDiv).next().show();});
+  </script>
 </nav>
+</div>
+
+
+<!-- body -->
+<script>
+  var marker = 1;
+</script>
+<div class="info">
+  <div class="row">
+    <div class="columns large-6">
+      <h2>Quienes Somos?</h2>
+      <p><%= @siteName %> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non illum numquam minus voluptas minima, nisi asperiores rerum quas, iusto aliquam voluptatem modi nostrum ipsam repellat unde aut voluptates aperiam ducimus.</p>
+    </div>
+
+    <div class="columns large-6">
+      <h2>Nuestra Mision</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, necessitatibus eum! Quae pariatur, aliquid praesentium obcaecati, itaque nisi, ex voluptatem quisquam, veritatis delectus animi tenetur tempore quibusdam in accusantium! A!</p>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="columns large-6">
+   
+  </div>
+  <div class="columns large-6">
+    
+  </div>
+
+</div>
